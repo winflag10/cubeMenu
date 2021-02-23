@@ -54,17 +54,17 @@ function navTo(page){
 		switch(page){
 			case("home"):
 				setTimeout(()=>{
-					window.location.href = "/?fade"
+					window.location.href = "./?fade"
 				},600)
 				break;
 			case("about"):
 				setTimeout(()=>{
-					window.location.href = "/about?fade"
+					window.location.href = "./about?fade"
 				},600)
 				break;
 			case("projects"):
 				setTimeout(()=>{
-					window.location.href = "/projects?fade"
+					window.location.href = "./projects?fade"
 				},600)
 				break;
 		}
