@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#helloTitle{
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12rem;
+}
+
+.typed{
+	position: relative;
+}
+
+.typed::after{
+	content: "";
+	animation: typing 2s linear infinite;
+	position: absolute;
+	right: -30px;
+}
+
+@keyframes typing {
+	30%  {content: ""}
+	100% {content: "|"}
+} 

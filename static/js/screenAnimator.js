@@ -57,9 +57,9 @@ function navTo(page){
 					window.location.href = "./?fade"
 				},600)
 				break;
-			case("about"):
+			case("contact"):
 				setTimeout(()=>{
-					window.location.href = "./about?fade"
+					window.location.href = "./contact?fade"
 				},600)
 				break;
 			case("projects"):
