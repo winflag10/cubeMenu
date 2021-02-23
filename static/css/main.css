@@ -18,6 +18,7 @@ body{
 	flex-direction: column;
 	flex:1;
 	overflow-x: hidden;
+	background-color: #1d1d1d;
 }
 
 #canvasContainer{
@@ -43,6 +44,10 @@ body{
 #menuText{
 	position: absolute;
 	font-family: 'Nunito', sans-serif;
+	color: #FF9821;
+	bottom: 0px;
+	left:0;
+	transform: rotate(20deg);
 }
 
 #canvasContainer.active #menuText{

@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>My first three.js app</title>
+		<title>John Watkins</title>
 		<link rel="stylesheet" type="text/css" href="static/css/main.css">
 		<link rel="stylesheet" type="text/css" href="static/css/home.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 	</head>
 	<body onload="initCubeMenu();fadeAnim();typeHello();">
 		<script src="static/js/three.js"></script>
@@ -13,7 +14,7 @@
 		<script src="static/js/cube.js"></script>
 		<script src="static/js/home.js"></script>
 		<svg id="menu-svg" class="menu-canvas" height="100%"  viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1009"></defs>
-			<polygon id="SvgjsPolygon1010" points="100,0 100,0 100,35 100,100 100,100 100,35" fill="#22bbff"></polygon>
+			<polygon id="SvgjsPolygon1010" points="100,0 100,0 100,35 100,100 100,100 100,35" fill="#FF9821"></polygon>
 		</svg>
 		<script src="static/js/checkFadeOnLoad.js"></script>
 		<script type="text/javascript">
@@ -28,6 +29,9 @@
 			<p onclick="navTo('projects')">PROJECTS</p>
 			<p onclick="navTo('contact')">CONTACT</p>
 		</div>
-		<h1 id="helloTitle" class="typed"></h1>
+		<section id="homeHeroSection">
+			<h1 id="helloTitle" class="typed"></h1>
+			<p id="helloTitleArrow"><i class="fas fa-arrow-down"></i></p>
+		</section>
 	</body>
 </html>

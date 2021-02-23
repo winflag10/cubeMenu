@@ -7,6 +7,5 @@ function typeHello(){
 	setTimeout(()=>{document.getElementById("helloTitle").innerText = "</HELL"}, 1400)
 	setTimeout(()=>{document.getElementById("helloTitle").innerText = "</HELLO"}, 1600)
 	setTimeout(()=>{document.getElementById("helloTitle").innerText = "</HELLO>"}, 2000)
+	setTimeout(()=>{document.getElementById("helloTitleArrow").classList.add("visible")}, 2500)
 }
-
-//&lt;/HELLO&gt;
